@@ -1,0 +1,51 @@
+.root{
+    -fx-background-image: url("background_desktop.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#time-label{
+    -fx-text-fill: white;
+}
+#time-label:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #2F3535;
+    -fx-opacity: .8;
+}
+#taskbar{
+    -fx-background-color: black;
+    -fx-opacity: .8;
+}
+#icon-win10{
+    -fx-background-image: url("icon_win10.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+
+}
+#icon-win10:hover{
+    -fx-background-image: url("icon_win10_hover.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.pane > *:hover {
+    -fx-background-color: #2F3535;
+    -fx-opacity: .8;
+}
+.pane > *:selected {
+    -fx-background-color: #2F3535;
+    -fx-opacity: .8;
+}
+#menu-win10{
+    -fx-opacity: .95;
+    -fx-background-color: #2F3535;
+
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: #2F3535;
+}
+.label{
+    -fx-text-alignment: center;
+}
